@@ -8,10 +8,8 @@
   flex-wrap: wrap;
   gap: 20px;
   align-items: center;
-  padding: 20px;
-  box-sizing: border-box; /*faz com que os valores de padding não sejam somados ao max-width*/
-  max-width: 1200px;
-  margin: 0px auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 .header-menu {
@@ -23,10 +21,7 @@
   display: inline-block;
   color: var(--cor-0);
   padding: 16px 0px;
-  font-size: 18px;
   position: relative;
-  font-family: "Poppins";
-  font-weight: 400;
 }
 
 .header-menu a:after {
