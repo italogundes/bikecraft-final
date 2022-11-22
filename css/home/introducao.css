@@ -47,9 +47,14 @@
     grid-template-columns: 1fr;
   }
 
+  .introducao-conteudo a {
+    margin-bottom: 20px;
+  }
+
   .introducao-conteudo {
     padding-bottom: 0px;
   }
+
   .introducao h1 {
     margin-bottom: 16px;
   }
